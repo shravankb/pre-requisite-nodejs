@@ -4,13 +4,13 @@
 
 JavaScript basically supports 7 basic data types; these otherwise called as primitive data types viz.,
 
-- Number
-- String
-- Boolean
-- "null" value
-- "undefined"
+- [Number](#Number)
+- [String]()
+- [Boolean]()
+- ["null" value]()
+- ["undefined"]()
 
-**Number**
+#### Number
 ```javascript
 var n =123;
 
