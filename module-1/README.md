@@ -22,11 +22,32 @@ JavaScript is a scripting language;
 - Programming language for the WEB
 - Updates and changes both HTML and CSS
 
-#### Scripting language & Programming language
+Note: #### Scripting language & Programming language
 
 - Scripting languages are rather interpreted and not compiled; Programming languages are compiled.
 - All Scripting languages are Programming languages
 
 ![GettingStartedWithNode](../assets/scriptvprogram.png)
+
+At present, JavaScript can execute not only in the browser, but also on the server, or actually on any device where 
+exists a special program called the JavaScript engine.
+
+Different engines have different "codenames", for example:
+
+- V8 --> in Chrome and Opera.
+- Gecko --> in Firefox.
+- Chakra --> in Microsoft Edge
+
+Engines are complicated. But the basics are easy.
+
+1. The script is written and distributed as a plain text (can be compressed/optimized by so-called 
+"javascript minifiers").
+2. The engine (embedded if it's a browser) reads the script ("parses") and converts ("compiles") it 
+to the machine language.
+3. And then it runs, pretty fast.
+
+The engine applies optimizations on every stage of the process. It even watches the script as it runs, analyzes the data 
+which flows through it and applies optimizations to the machine-code basing on that knowledge.
+
 
 **[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)**
