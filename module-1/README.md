@@ -29,4 +29,4 @@ JavaScript is a scripting language;
 
 ![GettingStartedWithNode](../assets/scriptvprogram.png)
 
-**[ :back: Back to Top](https://github.com/shravankb/pre-requisite-nodejs)**
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)**
