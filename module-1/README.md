@@ -22,7 +22,7 @@ JavaScript is a scripting language;
 - Programming language for the WEB
 - Updates and changes both HTML and CSS
 
-#### Note:  Scripting language & Programming language
+Note:  **Scripting language & Programming language**
 
 - Scripting languages are rather interpreted and not compiled; Programming languages are compiled.
 - All Scripting languages are Programming languages
