@@ -1,4 +1,4 @@
-## What is JavaScript?
+# What is JavaScript?
 
 JavaScript was initially created to **"make webpages alive"**.
 
@@ -49,7 +49,7 @@ to the machine language.
 The engine applies optimizations on every stage of the process. It even watches the script as it runs, analyzes the data 
 which flows through it and applies optimizations to the machine-code basing on that knowledge.
 
-### What can in-browser JavaScript do?
+## What can in-browser JavaScript do?
 
 The modern JavaScript is a "safe" programming language. It does not provide low-level access to memory or CPU, because it 
 was initially created for browsers which do not require it.
