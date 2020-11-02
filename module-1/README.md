@@ -27,6 +27,6 @@ JavaScript is a scripting language;
 - Scripting languages are rather interpreted and not compiled; Programming languages are compiled.
 - All Scripting languages are Programming languages
 
-![GettingStartedWithNode](assets/scriptvprogram.png)
+![GettingStartedWithNode](../assets/scriptvprogram.png)
 
 **[ :back: Back to Top](#table-of-contents)**
