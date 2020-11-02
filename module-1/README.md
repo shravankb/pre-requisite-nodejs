@@ -34,9 +34,9 @@ exists a special program called the JavaScript engine.
 
 Different engines have different "codenames", for example:
 
-- V8 --> in Chrome and Opera.
-- Gecko --> in Firefox.
-- Chakra --> in Microsoft Edge
+- **V8** --> *in Chrome and Opera*.
+- **Gecko** --> *in Firefox*.
+- **Chakra** --> *in Microsoft Edge*.
 
 Engines are complicated. But the basics are easy.
 
