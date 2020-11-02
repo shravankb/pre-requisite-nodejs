@@ -10,8 +10,8 @@ Contains most important features and prerequisite concepts for better understand
 | Sl. No  | Title/Topic  |
 |:-:|:-:|
 | 1  | [What is JavaScript?](module-1/README.md)  |
-| 2  | []()  |
-| 3  | []()  |
+| 2  | [Synchronous Programming v/s Asynchronous Programming](module-2/README.md)  |
+| 3  | [Fundamentals of JavaScript](module-3/README.md)  |
 | 4  | []()  |
 | 5  | []()  |
 | 6  | []()  |
