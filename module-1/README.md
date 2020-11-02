@@ -17,16 +17,16 @@ In this aspect, JavaScript is very different from another language called Java.
 <br>
 
 JavaScript is a scripting language; 
-    - that allows you to implement complex features on web pages.
-    - 3rd Main layer of WEB TECHNOLOGY
-    - Programming language for the WEB
-    - Updates and changes both HTML and CSS
+- that allows you to implement complex features on web pages.
+- 3rd Main layer of WEB TECHNOLOGY
+- Programming language for the WEB
+- Updates and changes both HTML and CSS
 
 #### Scripting language & Programming language
 
-    - Scripting languages are rather interpreted and not compiled; Programming languages are compiled.
-    - All Scripting languages are Programming languages
+- Scripting languages are rather interpreted and not compiled; Programming languages are compiled.
+- All Scripting languages are Programming languages
 
-    ![GettingStartedWithNode](assets/scriptvprogram.png)
+![GettingStartedWithNode](assets/scriptvprogram.png)
 
 **[ :back: Back to Top](#table-of-contents)**
