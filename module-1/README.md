@@ -67,7 +67,7 @@ For instance, in-browser JavaScript is able to:
 - Get and set cookies, ask questions to the visitor, show messages.
 - Remember the data on the browser side ("local storage").
 
-## What makes JavaScript unique?
+## Significance of JavaScript
 
 There are at least three great things about JavaScript:
 
@@ -77,9 +77,9 @@ There are at least three great things about JavaScript:
 + Supported by all major browsers and enabled by default.
 ```
 
-Combined, these 3 things only exist in JavaScript and no other browser technology.
-
-That's what makes JavaScript unique. That's why it is the most widespread way of creating browser interfaces.
+    Combined, these 3 things only exist in JavaScript and no other browser technology. 
+    That's what makes JavaScript unique. 
+    That's why it is the most widespread way of creating browser interfaces.
 
 
 **[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)**
