@@ -1,5 +1,8 @@
 # Pre-Requisite for Node.js
 
+Contains most important features and prerequisite concepts for better understanding of Node.js
+
+
 ## Table of Contents (TOC)
 
 | Sl. No  | Title/Topic  |
