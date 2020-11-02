@@ -1,6 +1,6 @@
 # Pre-Requisite for Node.js
 
-### Table of Contents (TOC)
+## Table of Contents (TOC)
 
 | Sl. No  | Title/Topic  |
 |:-:|:-:|
