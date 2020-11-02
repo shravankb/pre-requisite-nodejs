@@ -49,5 +49,24 @@ to the machine language.
 The engine applies optimizations on every stage of the process. It even watches the script as it runs, analyzes the data 
 which flows through it and applies optimizations to the machine-code basing on that knowledge.
 
+### What can in-browser JavaScript do?
+
+The modern JavaScript is a "safe" programming language. It does not provide low-level access to memory or CPU, because it 
+was initially created for browsers which do not require it.
+
+The capabilities greatly depend on the environment which runs JavaScript. For instance, Node.JS supports functions that 
+allows JavaScript to read/write arbitrary files, perform network requests etc.
+
+In-browser JavaScript can do everything related to webpage manipulation, interaction with the user and the webserver.
+
+For instance, in-browser JavaScript is able to:
+
+- Add new HTML to the page, change the existing content, modify styles.
+- React on user actions, run on mouse clicks, pointer movements, key presses.
+- Send requests over the network to remote servers, download and upload files (so-called AJAX and COMET technologies).
+- Get and set cookies, ask questions to the visitor, show messages.
+- Remember the data on the browser side ("local storage").
+
+
 
 **[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)**
