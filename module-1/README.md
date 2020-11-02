@@ -18,7 +18,7 @@ In this aspect, JavaScript is very different from another language called Java.
 
 JavaScript is a scripting language; 
 - that allows you to implement complex features on web pages.
-- 3rd Main layer of WEB TECHNOLOGY
+- 3rd Main layer of Web Technology
 - Programming language for the WEB
 - Updates and changes both HTML and CSS
 
