@@ -68,7 +68,7 @@ In JavaScript, there are 3 types of quotes.
 2. Single quotes: ```'Hello'```.
 3. Backticks: <code>&#96;Hello&#96;</code>.
 
-**Note:** Double and single quotes are "simple" quotes. There's no difference between them in JavaScript.
+*Note:* Double and single quotes are "simple" quotes. There's no difference between them in JavaScript.
 
 Backticks are "extended functionality" quotes. They allow to embed variables and expressions into a string by wrapping them in ${…}, 
 for example:
