@@ -3,8 +3,8 @@
 ## Data Types
 
 Two types of data: 
-1. [Primitive Data Types](#Primitive Data types ( Basic Data Types ))
-2. [Non - Primitive Data Types](#Non - Primitive Data types)
+1. [Primitive Data Types](#primitive-data-types--basic-data-types-)
+2. [Non - Primitive Data Types](#non-primitive-data-types--basic-data-types-)
 
 
 ### Primitive Data types ( Basic Data Types )
