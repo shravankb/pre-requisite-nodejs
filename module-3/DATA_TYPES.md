@@ -147,3 +147,100 @@ the variable, and undefined is only used for checks, to see if the variable is a
 <br><br><br><hr>
 
 ### Non - Primitive Data Types
+
+Non - Primitive Data types supported by JavaScript are viz.,
+
+- [Object](#Object)
+- [Function](#Function)
+
+
+#### Object
+
+A JavaScript object is a collection of properties where each property has a name and a value.  The name of a property can be 
+any string, including an empty string. 
+
+The value can be any value, such as a string, Boolean, number, and null, but it cannot be "undefined". The object's 
+properties can be defined even after you start using the object.
+
+```javascript
+var rect = {};          // creates an empty object
+rect.width = 20;
+rect.height = 10;
+
+console.log(rect.width);      // 20
+console.log(rect.height);     // 10
+```
+
+As an alternative you can immediately assign properties and their values in the literal notation.
+
+```javascript
+
+var rect = { width: 20, height: 10 };
+console.log(rect.width);      //  20
+console.log(rect.height);     //  10
+```
+
+Property values are not limited to primitive types, like number or string; you can also add properties that are other objects, 
+including functions. When a function is added to an object it is called a method.
+
+```javascript
+var rect = { width: 20, height: 10 };
+
+// add new object
+rect.color = { red: 0, green: 255, blue: 128 }; 
+
+// add new method
+rect.getArea = function() {                    
+    return this.width * this.height;
+};
+console.log(rect.color.red);  //  0
+console.log(rect.getArea());  //  200
+```
+
+Property values can be retrieved in one of two ways; dot notation and bracket notation. Below are examples of each:
+
+```javascript
+var rect = { width: 20, height: 10 };
+console.log(rect.width);             // 20 (dot notation)
+console.log(rect["width"]);          // 20 (bracket notation)
+
+// Note : Dot notation is used more often because it is easier to read and more compact. 
+```
+
+So when would you use bracket notation?
+Square brackets allow you to use property names that are not valid identifiers and don't work with dot notation, 
+for example when they have spaces in them or start with a number. 
+
+```javascript
+var shape = {
+   "bounding box width": 20,                
+   "bounding box height": 10
+}
+
+console.log(shape["bounding box width"]); // 20
+
+```
+
+**Exception**: JavaScript Array is also considered as an Object. Unlike other languages, arrays in JavaScript are not homogenous 
+collection of elements.  
+
+An array is a special variable, which can hold more than one value at a time.
+
+```javascript
+var cars = [];
+cars[0] = "Ford"; 
+cars[1] = "BMW";
+cars[2] = "Honda";
+cars[4] = 4000;
+cars["six"] = "TVS";
+
+.                 //    0       1       2       3     4        5
+console.log(cars) // ["Ford", "BMW", "Honda", empty, 4000, six: "TVS"]
+console.log(cars.length); // 5
+console.log(cars[3]) // undefined
+console.log(cars[4]) // 4000
+
+```
+
+
+#### Functions
