@@ -144,5 +144,6 @@ alert(x); // "undefined"
 *Note:* But it's not recommended to do that. Normally, we use null to write an "empty" or an "unknown" value into 
 the variable, and undefined is only used for checks, to see if the variable is assigned or similar.
 
+<br><br>
 
-
+### Non - Primitive Data Types
