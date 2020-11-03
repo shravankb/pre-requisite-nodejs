@@ -80,7 +80,7 @@ let name = "John";
 console.log( `Hello, ${name}!` ); // Hello, John!
 ```
 
-#### String
+#### Boolean
 
 The boolean type has only two values: true and false.
 
