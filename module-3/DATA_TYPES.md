@@ -108,7 +108,7 @@ alert( isGreater ); // true (the comparison result is "yes")
 
 #### "null" value
 
-The special *null* value does not belong to any type of those described above.
+The special *null* value does not belong to any type of those described above. 
 It forms a separate type of its own, which contains only the *null* value:
 
 ```javascript
