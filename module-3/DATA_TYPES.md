@@ -105,3 +105,17 @@ Boolean values also come as a result of comparisons:
 let isGreater = 4 > 1;
 alert( isGreater ); // true (the comparison result is "yes")
 ```
+
+#### The "null" value
+
+The special *null* value does not belong to any type of those described above.
+It forms a separate type of its own, which contains only the *null* value:
+
+```javascript
+let age = null;
+```
+The code above states that the age is unknown or empty for some reason.
+
+
+In JavaScript null is not a "reference to a non-existing object" or a "null pointer" like in some other languages. It's 
+just a special value which has the sense of "nothing", "empty" or "value unknown".
