@@ -1,6 +1,8 @@
 # Fundamentals of JavaScript
 
-## Primitive Data types ( Basic Data Types )
+##Data Types
+
+### Primitive Data types ( Basic Data Types )
 
 Primitive Values are numbers and strings, among other things. Open your browser's console and print these primitive 
 values using console.log():
