@@ -226,6 +226,8 @@ collection of elements.
 
 An array is a special variable, which can hold more than one value at a time.
 
+![arrays](../assets/arrays.png)
+
 ```javascript
 var cars = [];
 cars[0] = "Ford"; 
