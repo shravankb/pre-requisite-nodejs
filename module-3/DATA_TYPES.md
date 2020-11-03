@@ -1,6 +1,6 @@
 # Fundamentals of JavaScript
 
-##Data Types
+## Data Types
 
 ### Primitive Data types ( Basic Data Types )
 
