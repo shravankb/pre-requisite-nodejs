@@ -106,7 +106,7 @@ let isGreater = 4 > 1;
 alert( isGreater ); // true (the comparison result is "yes")
 ```
 
-#### The "null" value
+#### "null" value
 
 The special *null* value does not belong to any type of those described above.
 It forms a separate type of its own, which contains only the *null* value:
@@ -119,3 +119,30 @@ The code above states that the age is unknown or empty for some reason.
 
 In JavaScript null is not a "reference to a non-existing object" or a "null pointer" like in some other languages. It's 
 just a special value which has the sense of "nothing", "empty" or "value unknown".
+
+
+#### "undefined"
+
+The special value *undefined* stands apart. It makes a type of its own, just like null. The meaning of undefined is 
+**"value is not assigned"**.
+
+If a variable is declared, but not assigned, then its value is exactly undefined:
+
+```javascript
+let x;
+console.log(x); // shows "undefined"
+```
+
+Technically, it is possible to assign any variable to undefined:
+
+```javascript
+let x = 123;
+x = undefined;
+alert(x); // "undefined"
+```
+
+*Note:* But it's not recommended to do that. Normally, we use null to write an "empty" or an "unknown" value into 
+the variable, and undefined is only used for checks, to see if the variable is assigned or similar.
+
+
+
