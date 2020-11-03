@@ -26,8 +26,8 @@ JavaScript basically supports 7 basic data types; these otherwise called as prim
 - [Number](#Number)
 - [String](#String)
 - [Boolean](#Boolean)
-- ["null" value]()
-- ["undefined"]()
+- ["null" value](#null-value)
+- ["undefined"](#undefined)
 
 #### Number
 
