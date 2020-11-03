@@ -2,6 +2,11 @@
 
 ## Data Types
 
+Two types of data: 
+1. [Primitive Data Types](#Primitive Data types ( Basic Data Types ))
+2. [Non - Primitive Data Types](#Non - Primitive Data types)
+
+
 ### Primitive Data types ( Basic Data Types )
 
 Primitive Values are numbers and strings, among other things. Open your browser's console and print these primitive 
