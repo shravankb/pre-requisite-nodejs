@@ -11,7 +11,8 @@ The statement below creates (in other words: declares or defines) a variable wit
 
 ```javascript
 var message;
-```
+
+![typeof](../assets/variable.gif)```
 
 Now we can put some data into it by using the assignment operator =:
 ```javascript
