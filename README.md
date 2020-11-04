@@ -12,7 +12,7 @@ Contains most important features and prerequisite concepts for better understand
 |:----------:|-----| 
 | 1  | [What is JavaScript?](module-1/README.md)  |
 | 2  | [Synchronous Programming v/s Asynchronous Programming](module-2/README.md)  |
-| 3  |  [Fundamentals of JavaScript](module-3/DATA_TYPES.md) <br><ul><li>[Data-Types]()</li><li>[Declaring Variables]()</li><li>[Functions]()</li></ul> |
+| 3  |  [Fundamentals of JavaScript]() <br><ul><li>[Data-Types](module-3/DATA_TYPES.md)</li><li>[Declaring Variables]()</li><li>[Functions]()</li></ul> |
 | 4  |   |
 | 5  |   |
 | 6  |   |
