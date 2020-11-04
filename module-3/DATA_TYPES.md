@@ -29,7 +29,7 @@ JavaScript basically supports 7 basic data types; these otherwise called as prim
 - ["null" value](#null-value)
 - ["undefined"](#undefined)
 
-#### Number
+#### - Number
 
 ```javascript
 var n = 123;
@@ -59,7 +59,7 @@ Besides regular numbers, there are so-called "special numeric values" which also
 
 Special numeric values formally belong to the "number" type. Of course they are not numbers in a common sense of this word.
 
-#### String
+#### - String
 
 A string in JavaScript must be quoted.
 
@@ -87,7 +87,7 @@ let name = "John";
 console.log( `Hello, ${name}!` ); // Hello, John!
 ```
 
-#### Boolean
+#### - Boolean
 
 The boolean type has only two values: true and false.
 
@@ -106,7 +106,7 @@ let isGreater = 4 > 1;
 alert( isGreater ); // true (the comparison result is "yes")
 ```
 
-#### "null" value
+#### - "null" value
 
 The special *null* value does not belong to any type of those described above. 
 It forms a separate type of its own, which contains only the *null* value:
@@ -121,7 +121,7 @@ In JavaScript null is not a "reference to a non-existing object" or a "null poin
 just a special value which has the sense of "nothing", "empty" or "value unknown".
 
 
-#### "undefined"
+#### - "undefined"
 
 The special value *undefined* stands apart. It makes a type of its own, just like null. The meaning of undefined is 
 **"value is not assigned"**.
@@ -154,7 +154,7 @@ Non - Primitive Data types supported by JavaScript are viz.,
 - [Function](#Function)
 
 
-#### Object
+#### - Object
 
 A JavaScript object is a collection of properties where each property has a name and a value.  The name of a property can be 
 any string, including an empty string. 
@@ -245,7 +245,7 @@ console.log(cars[4]) // 4000
 ```
 
 
-#### Functions
+#### - Functions
 
 A function is a block of organized, reusable code that is used to perform single, related action. Here is an example of a 
 simple function declaration:
@@ -258,7 +258,7 @@ say("Nineleaps"); // Hello Nineleaps
 ```
 *Note: We can explore more on function as non fundamental data-type as we go further.*
 
-#### typeof operator
+#### - typeof operator
 
 The typeof operator returns the type of the argument. It's useful when we want to process values of different types differently, 
 or just want to make a quick check.
