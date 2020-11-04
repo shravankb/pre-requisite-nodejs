@@ -246,3 +246,50 @@ console.log(cars[4]) // 4000
 
 
 #### Functions
+
+A function is a block of organized, reusable code that is used to perform single, related action. Here is an example of a 
+simple function declaration:
+
+```javascript
+function say(name) {
+  console.log("Hello " + name); 
+}         
+say("Nineleaps"); // Hello Nineleaps
+```
+*Note: We can explore more on function as non fundamental data-type as we go further.*
+
+#### typeof operator
+
+The typeof operator returns the type of the argument. It's useful when we want to process values of different types differently, 
+or just want to make a quick check.
+
+It supports two forms of syntax:
+
+  1. As an operator: typeof x.
+  2. Function style: typeof(x).
+
+In other words, it works both with the brackets or without them. The result is the same.
+
+
+![typeof](../assets/typeof.gif)
+
+```javascript
+
+typeof undefined // "undefined"
+
+typeof 0 // "number"
+
+typeof true // "boolean"
+
+typeof "foo" // "string"
+
+typeof null // "object"  (1)
+```
+
+(1) The result of typeof null is "object". That's wrong. It is an officially recognized error in typeof, kept for 
+compatibility. Of course, null is not an object. It is a special value with a separate type of its own. So, again, that's an error 
+in the language.
+
+
+
+
