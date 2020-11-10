@@ -65,7 +65,7 @@ the function finishes execution.
 
 ![function-scope](../assets/javascript-scope.png)
 
-![function-nested-scope](../assets/javascript-nested-scope.png)
+![function-nested-scope](../assets/javascript-nested-scopes.png)
 
 
 With function scope, the parameters and variables that you define as part of a function are not available outside the function 
