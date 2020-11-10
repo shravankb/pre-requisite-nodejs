@@ -63,6 +63,11 @@ A variable has global scope if it exists during the life of the program and is a
 has function scope if it is declared within a function and is not accessible outside of that function and will cease to exist when
 the function finishes execution.
 
+![function-scope](../assets/javascript-scope.png)
+
+![function-nested-scope](../assets/javascript-nested-scope.png)
+
+
 With function scope, the parameters and variables that you define as part of a function are not available outside the function 
 body; they are only visible within the function throughout the lifetime of the function.
 
@@ -86,3 +91,8 @@ function showArgument(num) {
 showArgument(3);      // 3
 
 ```
+
+
+## JavaScript Function Objects
+
+
