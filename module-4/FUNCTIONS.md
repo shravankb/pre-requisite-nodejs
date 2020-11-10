@@ -19,7 +19,7 @@ To create a function we can use a function declaration, as shown below:
 The `function` keyword goes first, then goes the *name of the function*, then a list of *parameters* in the brackets (empty in the example above) and finally the code of the function, also named "the function body".
 
 
-![functionDeclaration](../assets/function_basic.png)
+![functionDeclaration](../assets/function_basics.png)
 
 
 Our new function can be called by its name: `showMessage()`. We can invoke the function or call the function using the function name followed by `()`, for instance:
