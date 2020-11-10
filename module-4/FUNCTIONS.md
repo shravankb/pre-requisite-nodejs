@@ -65,8 +65,8 @@ the function finishes execution.
 
 
 <p float="left">
-  <img src="../assets/javascript-scope.png" width="100" />
-  <img src="../assets/javascript-nested-scopes.png" width="100" /> 
+  <img src="../assets/javascript-scope.png" width="100%" />
+  <img src="../assets/javascript-nested-scopes.png" width="100%" /> 
 </p>
 
 
