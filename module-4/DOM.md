@@ -56,13 +56,13 @@ This document can be represented as the following node tree:
 
 Document Object Model for a webpage is made of four entities :
 
-- **Window Object** : is at the top of hierarchy; outmost element.
+- **Window Object** : is at the top of hierarchy; outmost element. The window object represents an open window in a browser.
 
-- **Document Object** : Each HTML document that gets loaded into window is document object
+- **Document Object** : Each HTML document that gets loaded into window is document object, i.e, when an HTML document is loaded into a web browser, everything viewed within white screen of the browser becomes a document object.
 
 - **Form Object** : Everything that closed under `<form>.......</form>`
 
-- **Form Control Elements** : Those Objects/elements that falls under <form> Object
+- **Form Control Elements** : Those objects/elements that falls under <form> Object
 
 
 ##### Why are we explaining DOM?
