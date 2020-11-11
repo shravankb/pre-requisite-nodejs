@@ -14,18 +14,18 @@ someone we’ll walk the dog later. You can promise something, but that doesn’
 > ES6 introduced Promises 
 >"A promise is a placeholder for a value that can either resolve or reject at some time in the future"
 
-A promise can either resolve, or reject. A promise resolves if it actually did what we expected it to do, just 
+A **promise** can either resolve, or reject. A promise resolves if it actually did what we expected it to do, just 
 like it “promised”. However, if anything went wrong for any reason, the promise rejects. 
 
 ![promise](../assets/promise.png)
 
-A promise may complete at some point and produce a value. Once that value is ready, it allows you to do something 
+A `promise` may complete at some point and produce a value. Once that value is ready, it allows you to do something 
 with that value.
 
 Promises have three states: 
-- Pending: the initial state of the promise
-- Fulfilled: the specified operation was completed.
-- Rejected: the operation did not complete.
+- `Pending`: the initial state of the promise
+- `Fulfilled`: the specified operation was completed.
+- `Rejected`: the operation did not complete.
 
 Now, we can do something based on whether the promise has resolved, or rejected. This can be done by using 
 “.then()” or “.catch()". If a promise resolved, “.then()” will be fired, else “.catch()” will be fired. 
