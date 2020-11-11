@@ -52,9 +52,9 @@ Or in code:
 
 ![callback-example](../assets/callback-example-2.png)
 
-Don’t worry if some of this syntax is still unfamiliar to you: we will cover promises, and async/await in further parts! 
+Don’t worry if some of this syntax is still unfamiliar to you: we will cover promises, and async/await in further parts. 
 
-I invoke the higher-order askHomework function with the callback function doHomework. If there is homework to do, this function will be invoked. 
+Here, we invoke the higher-order askHomework function with the callback function doHomework. If there is homework to do, this function will be invoked. 
 
 While you were was waiting for your friend to respond, you could still listen to music and eat snacks. You just made sure that the doHomework function didn’t get run before the askHomework function was completed: otherwise you wouldn’t know what homework to do!
 
