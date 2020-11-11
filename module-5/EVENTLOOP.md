@@ -6,7 +6,7 @@ Note: To experience event loop play around with the concept in this website: [La
 
 > Ever heard of these terms?
 
-![module](../assets/module.png)
+![module](../assets/event-loop-terms.png)
 
 ### What is the event loop and why should you care?
 
