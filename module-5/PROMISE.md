@@ -1,6 +1,6 @@
 # Fundamentals of JavaScript
 
-## Callbacks
+## Promises
 
 Now, imagine that that callback function contained another callback function, then that callback function had another 
 callback function. This would lead to very chaotic code; called **callback-hell**.
@@ -51,3 +51,4 @@ If you want to wait for several promises to all resolve, you can use Promise.all
 and only if all of them resolved,  “.then()” will get fired.
 
 ![promise](../assets/promise-4.png)
+
