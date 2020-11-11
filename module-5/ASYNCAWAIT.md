@@ -74,3 +74,4 @@ popped off the call stack.
 Did you notice how `async` functions are different compared to a promise `then`? The `await` keyword suspends the 
 `async` function, whereas the Promise body would've kept on being executed if we would've used `then`.
 
+You can have a look at [Draft ECMAScript 6 Specification Proposal](https://github.com/domenic/promises-unwrapping).
