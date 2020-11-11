@@ -21,10 +21,15 @@ an object. This means that we no longer have to write any `Promise` object ourse
 
 ![async-await](../assets/asyncawait-0.png)
 
-Although the fact that async functions implicitly return promises is pretty great, the real power of async functions 
-can be seen when using the await keyword! With the await keyword, we can suspend the asynchronous function while we 
-wait for the awaited value return a resolved promise. If we want to get the value of this resolved promise, like we 
-previously did with the then() callback, we can assign variables to the awaited promise value.
+Although the fact that **async** functions implicitly return promises is pretty great, the real power of `async` functions 
+can be seen when using the `await` keyword. 
+
+With the `await` keyword, we can suspend the asynchronous function while we wait for the `await`ed value return a 
+resolved promise. If we want to get the value of this resolved promise, like we previously did with the `then()` callback, 
+we can assign variables to the `await`ed promise value.
+
+Let's see what happens when we run the following block of code:
+
 
 ![async-await](../assets/asyncawait-1.gif)
 
