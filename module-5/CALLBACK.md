@@ -7,6 +7,7 @@ Note: We will be using arrow functions through out this article. Basically we’
 ```javascript
 function() {}       function(a) {}        function(a,b) {}
 ```
+can be written as:
 
 ```javascript
 () => {}          a => {}            (a,b) => {}
