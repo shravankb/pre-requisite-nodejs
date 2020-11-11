@@ -52,7 +52,7 @@ Or in code:
 
 ![callback-example](../assets/callback-example-2.png)
 
-Don’t worry if some of this syntax is still unfamiliar to you: we will cover promises, and async/await in further posts! 
+Don’t worry if some of this syntax is still unfamiliar to you: we will cover promises, and async/await in further parts! 
 
 I invoke the higher-order askHomework function with the callback function doHomework. If there is homework to do, this function will be invoked. 
 
