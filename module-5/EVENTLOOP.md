@@ -25,7 +25,7 @@ When we invoke a function, it gets added to something called the **call stack**.
 The call stack is part of the JS engine, this isn’t browser specific. It’s a stack, meaning that it’s first in, last out. When a function returns a value, it gets popped off the stack.
 
 <p align="center">
-  <img src="../assets/eventloop-1.gif" width="350" title="hover text">
+  <img src="../assets/eventloop-1.gif"  title="hover text">
 </p>
 
 
@@ -36,14 +36,14 @@ The callback function that we passed to the setTimeout function, the arrow funct
 In the meantime, the `setTimeout` function and the respond function get popped off the stack, they both returned their values.
 
 <p align="center">
-  <img src="../assets/eventloop-2.gif" width="350" title="hover text">
+  <img src="../assets/eventloop-2.gif"  title="hover text">
 </p>
 
 
 In the Web API, a timer runs for as long as the second argument we passed to it, 1000ms. The callback doesn’t immediately get added to the call stack, instead it’s passed to something called the queue.
 
 <p align="center">
-  <img src="../assets/eventloop-3.gif" width="350" title="hover text">
+  <img src="../assets/eventloop-3.gif"  title="hover text">
 </p>
 
 
@@ -59,13 +59,13 @@ If the call stack is **empty**, so if all previously invoked functions have retu
 
 
 <p align="center">
-  <img src="../assets/eventloop-4.gif" width="350" title="hover text">
+  <img src="../assets/eventloop-4.gif"  title="hover text">
 </p>
 
 The callback is added to the call stack, gets invoked, and returns a value, and gets popped off the stack.
 
 <p align="center">
-  <img src="../assets/eventloop-5.gif" width="350" title="hover text">
+  <img src="../assets/eventloop-5.gif"  title="hover text">
 </p>
 
 Reading an concept is fun, but you'll only get entirely comfortable with this by actually working with it over and over. Try to figure out what gets logged to the console if we run the following:
@@ -86,7 +86,7 @@ Got it? Let's quickly take a look at what's happening when we're running this co
 
 
 <p align="center">
-  <img src="../assets/eventloop-6.gif" width="350" title="hover text">
+  <img src="../assets/eventloop-6.gif"  title="hover text">
 </p>
 
 1. We invoke `bar`. `bar` returns a `setTimeout` function.
