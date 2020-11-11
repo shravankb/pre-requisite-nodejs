@@ -5,6 +5,10 @@
 Now, imagine that that callback function contained another callback function, then that callback function had another 
 callback function. This would lead to very chaotic code; called **callback-hell**.
 
+Look at the code below; as we end up with tons of nested callback functions that make the code quite difficult to read and difficult handle errors as well.
+
+![callback-hell](../assets/callback-hell.png)
+
 To avoid that, we use promises. With promises, we can postpone the execution of a code block until an another 
 operation is completed. This way, other operations can keep running without interruption.
 
@@ -27,16 +31,27 @@ Promises have three states:
 - `Fulfilled`: the specified operation was completed.
 - `Rejected`: the operation did not complete.
 
+![promise](../assets/promise-0.png)
+
 Now, we can do something based on whether the promise has resolved, or rejected. This can be done by using 
 “.then()” or “.catch()". If a promise resolved, “.then()” will be fired, else “.catch()” will be fired. 
 
-![promise](../assets/promise-1.png)
+
+```javascript
+
+getImage(file)
+            .then(image => console.log(image))
+            .catch(err => console.log(error))
+```
+
+
+![promise](../assets/promise-1.gif)
 
 We can also pass values from the promise to the “.then()” or “.catch()”. We can do this by adding that value 
 between the parentheses in either “resolve()” or “reject()”. That value then gets passed as an argument to 
 “.then()” or “.catch()”, where we can use it.
 
-![promise](../assets/promise-2.png)
+![promise](../assets/promise-2.gif)
 
 This example, and the example above, actually return the same value. The parameters of the .then() and .catch() 
 have the value of the strings passed to resolve and reject.
@@ -51,4 +66,11 @@ If you want to wait for several promises to all resolve, you can use Promise.all
 and only if all of them resolved,  “.then()” will get fired.
 
 ![promise](../assets/promise-4.png)
+
+In the case of the getImage example, we can chain multiple then callbacks in order to pass the processed image 
+onto the next function! Instead of ending up with many nested callbacks, we get a clean then chain.
+
+![promise-solution](../assets/promise-solution.png)
+
+Perfect! This syntax already looks way better than the nested callbacks.
 
