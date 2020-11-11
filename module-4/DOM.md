@@ -60,7 +60,7 @@ Document Object Model for a webpage is made of four entities :
 
 - **Document Object** : Each HTML document that gets loaded into window is document object
 
-- **Form Object** : Everything that closed under <form>.......</form>
+- **Form Object** : Everything that closed under `<form>.......</form>`
 
 - **Form Control Elements** : Those Objects/elements that falls under <form> Object
 
