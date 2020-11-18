@@ -7,10 +7,10 @@ execute something asynchronously, you can move on to another task before it fini
 
 In programming, **synchronous operations** block instructions until the task is completed, while **asynchronous operations** can execute without blocking other operations.
 
-Asynchronous operations are generally completed by firing an event or by calling a provided callback function.
-
 >Simplest Analogical Example for a Synchonrous Operation: Supermarket line.
 >Super market line will be one person at the time, the person at back will wait until rest of the persons are dispatched.
+
+Asynchronous operations are generally completed by firing an event or by calling a provided callback function.
 
 >Simplest Analogical Example for an Asynchonrous Operation: Restaurant
 > in restaurants there are 30, 40, 100 eating at the same time, if two persons order something at menu at the 
