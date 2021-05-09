@@ -80,3 +80,7 @@ Did you notice how `async` functions are different compared to a promise `then`?
 `async` function, whereas the Promise body would've kept on being executed if we would've used `then`.
 
 You can have a look at [Draft ECMAScript 6 Specification Proposal](https://github.com/domenic/promises-unwrapping).
+
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)** 
+
+**[ :next: ECMASCRIPT](https://github.com/shravankb/ECMAScript-Specifications#what-is-ecmascript)**

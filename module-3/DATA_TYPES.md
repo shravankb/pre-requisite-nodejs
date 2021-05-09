@@ -290,6 +290,8 @@ typeof null // "object"  (1)
 compatibility. Of course, null is not an object. It is a special value with a separate type of its own. So, again, that's an error 
 in the language.
 
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)** 
 
+**[ :next: Declaring Variable](https://github.com/shravankb/pre-requisite-nodejs/blob/main/module-3/DECLARING_VARIABLE.md)**
 
 

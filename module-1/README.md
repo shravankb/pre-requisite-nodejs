@@ -27,6 +27,8 @@ Note:  **Scripting language & Programming language**
 - Scripting languages are rather interpreted and not compiled; Programming languages are compiled.
 - All Scripting languages are Programming languages
 
+Read More: [Compiled vs Interpreted Language](https://www.geeksforgeeks.org/difference-between-compiled-and-interpreted-language)
+
 ![GettingStartedWithNode](../assets/scriptvprogram.png)
 
 At present, JavaScript can execute not only in the browser, but also on the server, or actually on any device where 
@@ -34,9 +36,9 @@ exists a special program called the JavaScript engine.
 
 Different engines have different "codenames", for example:
 
-- **V8** --> *in Chrome and Opera*.
-- **Gecko** --> *in Firefox*.
-- **Chakra** --> *in Microsoft Edge*.
+- [**V8**](https://v8.dev/) --> *in Chrome and Opera*.
+- [**Gecko**](https://en.wikipedia.org/wiki/Gecko_(software)) --> *in Firefox*.
+- [**Chakra**](https://en.wikipedia.org/wiki/Chakra_(JavaScript_engine)) --> *in Microsoft Edge*.
 
 Engines are complicated. But the basics are easy.
 
@@ -82,4 +84,6 @@ There are at least three great things about JavaScript:
     That's why it is the most widespread way of creating browser interfaces.
 
 
-**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)**
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)** 
+
+**[ :next: Synchronous v/s Asynchronous Programming](https://github.com/shravankb/pre-requisite-nodejs/blob/main/module-2/README.md)**

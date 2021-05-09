@@ -54,3 +54,6 @@ That's a bad practice, it gives an error in the strict mode:
 
 num = 5; // error: num is not defined
 ```
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)** 
+
+**[ :next: Declaring Variable](https://github.com/shravankb/pre-requisite-nodejs/blob/main/module-3/PROGRAMMING_CONSTRUCTS.md)**
