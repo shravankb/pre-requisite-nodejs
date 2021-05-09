@@ -69,3 +69,6 @@ for(initialisationExpression; testExpression; incrementalExpression) {
 loop code;
 }
 ```
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)** 
+
+**[ :next: Functions](https://github.com/shravankb/pre-requisite-nodejs/blob/main/module-4/FUNCTIONS.md)**

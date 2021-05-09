@@ -34,3 +34,7 @@ console.log(sayHi); // function...
 sayHi('John'); // Hello, John!
 ```
 ![module](../assets/module.png)
+
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)** 
+
+**[ :next: Modules](https://github.com/shravankb/pre-requisite-nodejs/blob/main/module-4/DOM.md)**

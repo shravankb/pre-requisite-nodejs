@@ -101,3 +101,8 @@ Don't worry if it still seems confusing, the most important thing is to understa
 ---
 
 Note: To experience event loop play around with the concept in this website: [LatentFlip](http://latentflip.com/loupe/)
+
+
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)** 
+
+**[ :next: CallBack](https://github.com/shravankb/pre-requisite-nodejs/blob/main/module-5/CALLBACK.md)**

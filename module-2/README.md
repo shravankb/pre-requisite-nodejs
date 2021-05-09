@@ -69,4 +69,6 @@ database('table')
 ```
 While the database loads and responds to the request, the rest of the page or other resources cannot load.
 
+**[ :back: Back to Table of Content](https://github.com/shravankb/pre-requisite-nodejs)** 
 
+**[ :next: Data Types](https://github.com/shravankb/pre-requisite-nodejs/blob/main/module-3/DATA_TYPES.md)**
